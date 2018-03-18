@@ -8,3 +8,30 @@
 1521409734195	geckodriver	INFO	geckodriver 0.20.0
 1521409734202	geckodriver	INFO	Listening on 127.0.0.1:54089
 1521409735207	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vmrzQRyDNzv8"
+1521416946377	geckodriver	INFO	geckodriver 0.20.0
+1521416946384	geckodriver	INFO	Listening on 127.0.0.1:35193
+1521416947389	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4yEmOFBvfSfC"
+1521416948674	Marionette	INFO	Enabled via --marionette
+1521416952107	Marionette	INFO	Listening on port 35685
+1521416953176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://my.binghamton.edu/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 23857, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1521417169531	geckodriver	INFO	geckodriver 0.20.0
+1521417169537	geckodriver	INFO	Listening on 127.0.0.1:43507
+1521417170543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ayVXUBEKxWB3"
+1521417171566	Marionette	INFO	Enabled via --marionette
+1521417174946	Marionette	INFO	Listening on port 39365
+1521417174970	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://my.binghamton.edu/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521417271506	geckodriver	INFO	geckodriver 0.20.0
+1521417271513	geckodriver	INFO	Listening on 127.0.0.1:45845
+1521417272518	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6EIcKmCJlNrH"
+1521417273625	Marionette	INFO	Enabled via --marionette
+1521417277300	Marionette	INFO	Listening on port 36363
+1521417277337	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://my.binghamton.edu/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 24539, Gecko_IOThread] WARNING: pipe error (99): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
