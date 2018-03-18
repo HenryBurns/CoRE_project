@@ -83,12 +83,12 @@ def register(username, password):
 	username1.send_keys(CRN)
 	#put the data in the website
 	#browser1.find_element_by_link_text("Submit Changes").click()
-CRN = sys.argv[1];
+CRN = input("CRN: ");
 #take the CRN as an arg
 #TODO add a searching method for the course provided number and type of course
-season = sys.argv[2];
+season = input("Semester season (spring, fall etc): ");
 season = season.lower();
-user = sys.argv[3];
+user = input("Username: ");
 #TODO add password censoring code for taking in argument here
 passw = getpass.getpass('Password:')
 print("CRN: " + str(CRN) + " " + " in " + season + " session.")
