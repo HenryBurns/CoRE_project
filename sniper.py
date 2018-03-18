@@ -1,5 +1,6 @@
 import urllib.request;
 import sys;
+import getpass;
 import datetime;
 import time;
 import requests;
@@ -89,7 +90,7 @@ season = sys.argv[2];
 season = season.lower();
 user = sys.argv[3];
 #TODO add password censoring code for taking in argument here
-passw = sys.argv[4];
+passw = getpass.getpass('Password:')
 print("CRN: " + str(CRN) + " " + " in " + season + " session.")
 szn = '';
 if season == 'spring':
@@ -106,7 +107,7 @@ else:
 #registration
 year = str(datetime.datetime.now().year)
 #get the current registration year
-semesterNumber = year + str(szn); 
-#TODO rename banana with a viable variable name
+semesterNumber = year + str(szn);
+#code used by bubrain to get get the semester and year for a course
 main(CRN, user, passw, season);
 #call the actuall function, it will loop until completed
