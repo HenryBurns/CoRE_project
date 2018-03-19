@@ -35,3 +35,61 @@ JavaScript warning: https://my.binghamton.edu/assets/js/jquery.min.js, line 1: U
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1521470386687	geckodriver	INFO	geckodriver 0.20.0
+1521470386764	geckodriver	INFO	Listening on 127.0.0.1:54507
+1521470387665	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qH91JvXGQvG1"
+1521470389209	Marionette	INFO	Enabled via --marionette
+1521470395321	Marionette	INFO	Listening on port 33623
+1521470395952	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://my.binghamton.edu/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521471471905	geckodriver	INFO	geckodriver 0.20.0
+1521471471913	geckodriver	INFO	Listening on 127.0.0.1:50383
+1521471472916	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IqPemwcM92yh"
+1521471473848	Marionette	INFO	Enabled via --marionette
+1521471477027	Marionette	INFO	Listening on port 33661
+1521471477052	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://my.binghamton.edu/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521471544246	geckodriver	INFO	geckodriver 0.20.0
+1521471544252	geckodriver	INFO	Listening on 127.0.0.1:39057
+1521471545258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3LgH3uf3c3Ff"
+1521471546213	Marionette	INFO	Enabled via --marionette
+1521471549527	Marionette	INFO	Listening on port 45767
+1521471549580	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://my.binghamton.edu/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521471670544	geckodriver	INFO	geckodriver 0.20.0
+1521471670550	geckodriver	INFO	Listening on 127.0.0.1:35431
+1521471671559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EaHhnOSAQXd1"
+1521471672460	Marionette	INFO	Enabled via --marionette
+1521471675677	Marionette	INFO	Listening on port 40245
+1521471675791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://my.binghamton.edu/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521471792259	geckodriver	INFO	geckodriver 0.20.0
+1521471792271	geckodriver	INFO	Listening on 127.0.0.1:47219
+1521471793270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KugHSp3LRiNW"
+1521471795272	Marionette	INFO	Enabled via --marionette
+1521471798602	Marionette	INFO	Listening on port 41761
+1521471799657	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://my.binghamton.edu/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1521472049299	geckodriver	INFO	geckodriver 0.20.0
+1521472049305	geckodriver	INFO	Listening on 127.0.0.1:57959
+1521472050310	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.hC576kGg2SkP"
+1521472051333	Marionette	INFO	Enabled via --marionette
+1521472054532	Marionette	INFO	Listening on port 43459
+1521472054644	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://ssb.cc.binghamton.edu
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://ssb.cc.binghamton.edu
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://ssb.cc.binghamton.edu
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://ssb.cc.binghamton.edu
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+1521472313558	geckodriver	INFO	geckodriver 0.20.0
+1521472313565	geckodriver	INFO	Listening on 127.0.0.1:34913
+1521472314567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6YhDhWfvX77j"
+1521472315528	Marionette	INFO	Enabled via --marionette
+1521472318673	Marionette	INFO	Listening on port 39009
+1521472318687	Marionette	WARN	TLS certificate errors will be ignored for this session
