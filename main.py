@@ -6,4 +6,4 @@ def main(CRN, username, password, season, semesterNumber):
         sniper.register(username, password, CRN);
     else:
         time.sleep(rand.randomint(30,60));
-        main(CRN, username, password);
+        main(CRN, username, password, semesterNumber);
