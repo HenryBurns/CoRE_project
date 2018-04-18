@@ -1,7 +1,8 @@
 import time;
+from selenium.common.exceptions import NoSuchElementException
 from selenium import webdriver;
 from bs4 import BeautifulSoup;
-def register(username, password, CRN):
+def register(username, password, CRNlist):
 	login_url = 'https://ssb.cc.binghamton.edu/banner/twbkwbis.P_GenMenu?name=bmenu.P_MainMnu&msg=WELCOME+Welcome+to+BU+BRAIN+Self+Service'
 	browser = webdriver.Firefox();
 	#makes a firefox browser
@@ -14,7 +15,7 @@ def register(username, password, CRN):
 	password1.send_keys(password)
 	#fill in the afformentioned inputs with username and password
 	browser.find_element_by_xpath("//input[@value='Login' and @type='submit']").click()
-	time.sleep(1);
+	time.sleep(1.5);
 	browser.find_element_by_link_text("Student").click()
 	time.sleep(1);
 	#switch windows in bu brain and click on student
@@ -32,8 +33,17 @@ def register(username, password, CRN):
 	#click only the semester that matches what was requested
 	browser.find_element_by_xpath("//input[@value='Submit' and @type='submit']").click();
 	#submit the semester
-	username1 = browser.find_element_by_id("crn_id1")
-	#put in crn
-	username1.send_keys(CRN)
-	#put the data in the website
-	#browser1.find_element_by_link_text("Submit Changes").click()
+	cntr = 1
+	try:
+		for courses in CRNlist:
+			username1 = browser.find_element_by_id("crn_id" + str(cntr))
+			cntr = cntr + 1
+			#put in crn
+			username1.send_keys(courses)
+			#put the data in the website
+			error = True
+			#experimental portion trying to send error messages.
+		browser.find_element_by_xpath("//input[@value='Submit Changes' and @type='submit']").click()
+	except NoSuchElementException:
+		error = False
+	return error
